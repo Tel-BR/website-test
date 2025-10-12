@@ -55,8 +55,9 @@ function parseConfigFlexible(rows) {
 }
 
 export function useGoogleSheets() {
-  const baseUrl = import.meta.env.VITE_SHEET_PUBLIC_URL || ''
-  const configGid = import.meta.env.VITE_CONFIG_GID || ''
+  // URL hardcoded - edite aqui para mudar a planilha
+  const baseUrl = import.meta.env.VITE_SHEET_PUBLIC_URL || 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSZbz9yApkk7BSqX8KTRbe2bUW8kdkPU1hwvbtNdP5WNCJKyxEjrAfgyEtNMxu2G_GqfuqdmmRFYfNe/pub'
+  const configGid = import.meta.env.VITE_CONFIG_GID || '697226083'
   const [state, setState] = useState({ loading: true, error: '', config: null, tabs: {}, loadingTabs: {} })
   const useEnvGids = (import.meta.env.VITE_USE_ENV_GIDS || '').toString() === '1'
 
