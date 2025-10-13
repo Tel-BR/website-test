@@ -93,7 +93,12 @@ export function useGoogleSheets() {
     let mounted = true
     ;(async () => {
       try {
-        if (!baseUrl || !configGid) throw new Error('VITE_SHEET_PUBLIC_URL ou VITE_CONFIG_GID ausentes')
+        if (!baseUrl || !configGid) {
+          console.warn('[Sheets] Usando fallback - URL ou GID ausentes')
+          const fb = await fetch('/fallback.json').then(r => r.json())
+          if (mounted) setState({ loading: false, error: '', config: fb.config, tabs: fb.tabs, loadingTabs: {} })
+          return
+        }
 
         // 1) GIDs via .env
         let gidMap = useEnvGids ? getEnvGidMap() : null
