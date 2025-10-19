@@ -1,24 +1,27 @@
 {
   "config": {
     "site_name": "Dra. Claudiane Santana Rezende",
-    "site_tagline": "Cuidado odontológico humano, onde você estiver.",
+    "site_tagline": "Dra. Claudiane Santana Rezende",
     "primary_color": "#22c55e",
     "secondary_color": "#ec4899",
     "accent_color": "#f59e0b",
     "primary_font": "Inter",
     "secondary_font": "Poppins",
-    "logo_url": "https://dummyimage.com/256x64/22c55e/ffffff.png&text=Dra.%20Claudiane%20Santana%20Rezende",
-    "favicon_url": "https://dummyimage.com/32x32/22c55e/ffffff.png",
+    "logo_url": "assets/logo.svg",
+    "favicon_url": "assets/logo.svg",
     "email": "atendimentoodontodomiciliar@gmail.com",
     "phone": "(34) 99977-7984",
     "whatsapp": "34999777984",
-    "whatsapp_message": "Olá! Vim pelo site e gostaria de mais informações.",
+    "whatsapp_message": "Ola! Gostaria de agendar uma avaliacao odontologica especializada.",
     "address_street": "Rua Aruã 597 Jardim Karaíba Uberlândia MG CEP 38.411-360",
+    "address_city": "Uberlândia",
+    "address_state": "Minas Gerais",
+    "address_zipcode": "38411-360",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Rua%20Aru%C3%A3%20597%20Jardim%20Kara%C3%ADba%20Uberl%C3%A2ndia%20MG%20CEP%2038.411-360",
     "facebook_url": "https://www.facebook.com/claudiane.s.rezende/",
     "instagram_url": "https://instagram.com/claudianerezende",
-    "meta_title": "Dra. Claudiane Santana Rezende - Especialistas em Odontologia",
-    "meta_description": "Atendimento odontológico humanizado em hospitais, domicílios e clínicas. Qualidade, segurança e acolhimento em cada consulta."
+    "meta_title": "Dra. Claudiane Santana Rezende - Odontologia Hospitalar e Domiciliar",
+    "meta_description": "Odontologia hospitalar, domiciliar e onco com protocolos seguros, equipe humana e foco em conforto."
   },
   "sections": [
     {
@@ -52,14 +55,6 @@
       "priority": 1,
       "component_type": "features",
       "icon_name": "Sparkles"
-    },
-    {
-      "id": "products-grid",
-      "page": "produtos",
-      "is_active": true,
-      "priority": 1,
-      "component_type": "products",
-      "icon_name": "Package"
     },
     {
       "id": "portfolio-gallery",
@@ -132,16 +127,15 @@
       "type": "global",
       "page_or_slug": "global",
       "meta_title": "Dra. Claudiane Santana Rezende",
-      "meta_description": "Atendimento odontológico humanizado em hospitais, domicílios e clínicas.",
+      "meta_description": "Odontologia hospitalar, domiciliar e onco com protocolos humanizados e equipe especializada.",
       "keywords_json": [
-        "odontologia",
-        "hospitalar",
-        "domiciliar",
-        "oncológica"
+        "odontologia hospitalar",
+        "laserterapia",
+        "home care"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende",
-      "og_description": "Cuidado odontológico com segurança, empatia e resultados.",
-      "og_image": "https://picsum.photos/seed/og-1/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Odontologia especializada",
+      "og_description": "Cuidado odontologico em hospitais, domicilios e clinicas com foco em seguranca e acolhimento.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -150,16 +144,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "home",
-      "meta_title": "Dra. Claudiane Santana Rezende - home",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Home",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "home",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - home",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-2/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Home",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -168,16 +162,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "sobre",
-      "meta_title": "Dra. Claudiane Santana Rezende - sobre",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Sobre",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "sobre",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - sobre",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-3/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Sobre",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -186,16 +180,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "servicos",
-      "meta_title": "Dra. Claudiane Santana Rezende - servicos",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Servicos",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "servicos",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - servicos",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-4/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Servicos",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -204,16 +198,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "diferencial",
-      "meta_title": "Dra. Claudiane Santana Rezende - diferencial",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Diferenciais",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "diferencial",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - diferencial",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-5/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Diferenciais",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -222,16 +216,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "produtos",
-      "meta_title": "Dra. Claudiane Santana Rezende - produtos",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Produtos",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "produtos",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - produtos",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-6/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Produtos",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -240,16 +234,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "portfolio",
-      "meta_title": "Dra. Claudiane Santana Rezende - portfolio",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Portfolio",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "portfolio",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - portfolio",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-7/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Portfolio",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -258,16 +252,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "blog",
-      "meta_title": "Dra. Claudiane Santana Rezende - blog",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Blog",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "blog",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - blog",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-8/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Blog",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -276,16 +270,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "depoimentos",
-      "meta_title": "Dra. Claudiane Santana Rezende - depoimentos",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Depoimentos",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "depoimentos",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - depoimentos",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-9/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Depoimentos",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -294,16 +288,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "faq",
-      "meta_title": "Dra. Claudiane Santana Rezende - faq",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - FAQ",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "faq",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - faq",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-10/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - FAQ",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -312,16 +306,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "cta",
-      "meta_title": "Dra. Claudiane Santana Rezende - cta",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - CTA",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "cta",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - cta",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-11/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - CTA",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267f1?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -330,16 +324,16 @@
       "scope": "page",
       "type": "page",
       "page_or_slug": "contato",
-      "meta_title": "Dra. Claudiane Santana Rezende - contato",
-      "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
+      "meta_title": "Dra. Claudiane Santana Rezende - Contato",
+      "meta_description": "Conteudo orientado ao paciente com protocolos claros e materiais educativos.",
       "keywords_json": [
         "contato",
-        "odontologia",
-        "serviços"
+        "odontologia especializada",
+        "humanizacao"
       ],
-      "og_title": "Dra. Claudiane Santana Rezende - contato",
-      "og_description": "Odontologia humanizada com protocolos de segurança.",
-      "og_image": "https://picsum.photos/seed/og-12/1200/630",
+      "og_title": "Dra. Claudiane Santana Rezende - Contato",
+      "og_description": "Saiba como levamos cuidado odontologico seguro para diferentes contextos.",
+      "og_image": "https://images.unsplash.com/photo-1588774068858-94dde83f6acb?auto=format&fit=crop&w=1920&q=80",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -347,15 +341,56 @@
     {
       "scope": "post",
       "type": "post",
-      "page_or_slug": "cuidados-bucais-tratamento-oncologico",
-      "meta_title": "Cuidados bucais durante o tratamento oncológico",
-      "meta_description": "Dicas práticas para reduzir desconfortos e prevenir complicações orais durante as terapias.",
+      "page_or_slug": "higiene-oral-pacientes-hospitalizados",
+      "meta_title": "Guia de higiene oral para pacientes hospitalizados",
+      "meta_description": "Checklist pratico para equipes de enfermagem manterem a cavidade oral saudavel em UTI e enfermarias.",
       "keywords_json": [
-        "Educação"
+        "Hospitalar",
+        "UTI",
+        "higiene oral",
+        "enfermagem"
       ],
-      "og_title": "Cuidados bucais durante o tratamento oncológico",
-      "og_description": "Leia o artigo completo no blog.",
+      "og_title": "Guia de higiene oral para pacientes hospitalizados",
+      "og_description": "Leia o artigo completo e aprofunde-se nos protocolos odontologicos.",
       "og_image": "assets/images/blog/cover-1.jpg",
+      "robots": "index,follow",
+      "twitter_card": "summary_large_image",
+      "language": "pt-BR"
+    },
+    {
+      "scope": "post",
+      "type": "post",
+      "page_or_slug": "odontologia-no-tratamento-onco",
+      "meta_title": "Como o dentista contribui no tratamento onco",
+      "meta_description": "Saiba porque a avaliacao odontologica antes da quimio e radioterapia faz diferenca nos resultados.",
+      "keywords_json": [
+        "Oncologia",
+        "laserterapia",
+        "qualidade de vida",
+        "oncologia"
+      ],
+      "og_title": "Como o dentista contribui no tratamento onco",
+      "og_description": "Leia o artigo completo e aprofunde-se nos protocolos odontologicos.",
+      "og_image": "assets/images/blog/cover-2.jpg",
+      "robots": "index,follow",
+      "twitter_card": "summary_large_image",
+      "language": "pt-BR"
+    },
+    {
+      "scope": "post",
+      "type": "post",
+      "page_or_slug": "atendimento-odontologico-domiciliar",
+      "meta_title": "Atendimento odontologico domiciliar: o que esperar",
+      "meta_description": "Entenda como funciona a visita odontologica em casa, quem pode solicitar e quais resultados esperar.",
+      "keywords_json": [
+        "Domiciliar",
+        "homecare",
+        "idosos",
+        "saude bucal"
+      ],
+      "og_title": "Atendimento odontologico domiciliar: o que esperar",
+      "og_description": "Leia o artigo completo e aprofunde-se nos protocolos odontologicos.",
+      "og_image": "assets/images/blog/cover-3.jpg",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
@@ -364,7 +399,7 @@
   "menu": [
     {
       "id": "menu_home",
-      "label": "Início",
+      "label": "Inicio",
       "anchor": "#hero",
       "type": "link",
       "order": 1,
@@ -373,16 +408,16 @@
     },
     {
       "id": "menu_about",
-      "label": "Sobre",
+      "label": "A Doutora",
       "anchor": "#sobre",
       "type": "link",
       "order": 2,
       "is_active": true,
-      "icon_name": "Info"
+      "icon_name": "UserRound"
     },
     {
       "id": "menu_services",
-      "label": "Serviços",
+      "label": "Servicos",
       "anchor": "#servicos",
       "type": "link",
       "order": 3,
@@ -390,20 +425,38 @@
       "icon_name": "Briefcase"
     },
     {
-      "id": "menu_portfolio",
-      "label": "Portfólio",
-      "anchor": "#portfolio",
+      "id": "menu_differentials",
+      "label": "Diferenciais",
+      "anchor": "#diferenciais",
       "type": "link",
       "order": 4,
       "is_active": true,
+      "icon_name": "Sparkles"
+    },
+    {
+      "id": "menu_portfolio",
+      "label": "Casos Reais",
+      "anchor": "#portfolio",
+      "type": "link",
+      "order": 5,
+      "is_active": true,
       "icon_name": "Images"
+    },
+    {
+      "id": "menu_blog",
+      "label": "Conteudos",
+      "anchor": "#blog",
+      "type": "link",
+      "order": 6,
+      "is_active": true,
+      "icon_name": "NotebookPen"
     },
     {
       "id": "menu_contact",
       "label": "Contato",
       "anchor": "#contato",
       "type": "link",
-      "order": 5,
+      "order": 7,
       "is_active": true,
       "icon_name": "Phone"
     }
@@ -411,8 +464,8 @@
   "hero": [
     {
       "id": "hero_slide_1",
-      "headline": "Cuidado odontológico que acolhe você onde estiver",
-      "subheadline": "Atendimento hospitalar, domiciliar e clínico com foco em conforto, segurança e resultados",
+      "headline": "Odontologia hospitalar que cuida de cada detalhe",
+      "subheadline": "Integramos o cirurgiao-dentista a UTI e enfermarias para prevenir infeccoes, aliviar dores e humanizar o cuidado.",
       "cta_label": "Fale com a doutora",
       "cta_action": "#contato",
       "cta_style": "primary",
@@ -423,9 +476,9 @@
     },
     {
       "id": "hero_slide_2",
-      "headline": "Oncologia e odontologia com empatia e precisão",
-      "subheadline": "Protocolos seguros e comunicação clara, do primeiro contato ao pós-atendimento",
-      "cta_label": "Agendar avaliação",
+      "headline": "Laserterapia e protocolos seguros para pacientes onco",
+      "subheadline": "Acompanhamento proativo antes, durante e apos terapias onco com orientacao clara, alivio de mucosites e suporte continuo.",
+      "cta_label": "Conhecer servicos",
       "cta_action": "#servicos",
       "cta_style": "secondary",
       "image_url": "assets/images/hero/slide-2.jpg",
@@ -437,91 +490,149 @@
   "services": [
     {
       "id": "service_1",
-      "title": "Odontologia Hospitalar",
-      "description": "Atendimento odontológico integrado ao cuidado hospitalar, com foco em segurança e protocolos",
-      "long_description": "Atendimento odontológico especializado dentro do ambiente hospitalar, com integração à equipe multidisciplinar. Adotamos protocolos de segurança, prevenção de infecções e manejo de dor para pacientes em diferentes condições clínicas. Priorizamos conforto, acolhimento e comunicação clara com familiares e profissionais de saúde, assegurando resultados previsíveis e humanizados.",
+      "title": "Odontologia Hospitalar Integrada",
+      "description": "Presenca ativa em UTI e enfermarias para prevencao, controle de infeccoes e suporte ao time multiprofissional.",
+      "long_description": "Atuamos dentro do ambiente hospitalar com visitas regulares ao leito, avaliacao de riscos odontogenicos e aplicacao de protocolos individualizados. Realizamos profilaxias, exodontias em centro cirurgico quando necessario, manejo de dor e treinamento da equipe de enfermagem para higiene e hidratacao correta da cavidade oral. O foco e reduzir infeccoes respiratorias, encurtar tempo de internacao e melhorar conforto do paciente critico sem perder o olhar humano.",
       "icon_name": "Hospital",
       "image_url": "assets/images/services/service-1.jpg",
       "features_json": [
-        "Atendimento humanizado e seguro",
-        "Protocolos clínicos baseados em evidências",
-        "Plano de cuidado personalizado",
-        "Orientações claras e acompanhamento",
-        "Integração com equipe multidisciplinar"
+        "Protocolos baseados em evidencias para UTI e enfermarias",
+        "Interacao constante com intensivistas e enfermagem",
+        "Controle de infeccoes e lesoes relacionadas a ventilacao",
+        "Educacao da equipe assistencial em cuidado oral"
       ],
-      "cta_label": "Fale com especialista",
+      "cta_label": "Solicitar protocolo hospitalar",
       "cta_action": "#contato",
       "is_active": true,
       "order": 1
     },
     {
       "id": "service_2",
-      "title": "Atendimento Domiciliar",
-      "description": "Cuidado odontológico no conforto da sua casa, com protocolos e equipamentos portáteis",
-      "long_description": "Serviço de atendimento odontológico em domicílio voltado a pacientes com mobilidade reduzida, pós-operatório ou necessidade de acompanhamento contínuo. Utilizamos equipamentos portáteis, boas práticas de higiene e planejamento personalizado, garantindo qualidade clínica, orientações claras e acompanhamento remoto quando necessário.",
+      "title": "Atendimento Odontologico Domiciliar",
+      "description": "Consultorio portatil para pacientes acamados, idosos e pessoas com mobilidade reduzida.",
+      "long_description": "Levamos o consultorio odontologico ate a casa do paciente com equipamentos portateis, biosseguranca e conforto. O atendimento inclui avaliacoes periodicas, profilaxias, ajustes proteticos, controle de dor e orientacao cuidadosa para familiares e cuidadores. Ideal para pacientes com necessidades especiais, pos-operatorios, doencas cronicas e aqueles que precisam de acompanhamento continuo sem deslocamento ate a clinica.",
       "icon_name": "Home",
       "image_url": "assets/images/services/service-2.jpg",
       "features_json": [
-        "Atendimento humanizado e seguro",
-        "Protocolos clínicos baseados em evidências",
-        "Plano de cuidado personalizado",
-        "Orientações claras e acompanhamento",
-        "Integração com equipe multidisciplinar"
+        "Agenda flexivel e deslocamento rapido",
+        "Equipamentos portateis esterilizaveis",
+        "Planos personalizados para cuidadores",
+        "Monitoramento remoto entre visitas"
       ],
-      "cta_label": "Solicitar avaliação",
+      "cta_label": "Agendar visita domiciliar",
       "cta_action": "#contato",
       "is_active": true,
       "order": 2
     },
     {
       "id": "service_3",
-      "title": "Odontologia Oncológica",
-      "description": "Prevenção, suporte e tratamento odontológico durante terapias oncológicas",
-      "long_description": "Atuação odontológica preventiva e terapêutica para pacientes em tratamento oncológico, com foco em redução de complicações orais, melhora do conforto e qualidade de vida. Trabalhamos protocolos baseados em evidências, educação do paciente e acompanhamento contínuo em conjunto com a equipe médica.",
+      "title": "Suporte Odontologico em Oncologia",
+      "description": "Preparacao, acompanhamento e recuperacao de pacientes em quimio ou radioterapia.",
+      "long_description": "Planejamos o atendimento odontologico desde o pre-tratamento, removendo focos infecciosos e preparando tecidos orais. Durante quimio ou radioterapia acompanhamos a hidratacao, realizamos laserterapia preventiva, tratamos mucosite, candidiase, dores e alteracoes de paladar. No pos-tratamento, monitoramos cicatrizacao, reabilitamos funcoes mastigatorias e devolvemos qualidade de vida com orientacoes claras e suporte emocional.",
       "icon_name": "ShieldCheck",
       "image_url": "assets/images/services/service-3.jpg",
       "features_json": [
-        "Atendimento humanizado e seguro",
-        "Protocolos clínicos baseados em evidências",
-        "Plano de cuidado personalizado",
-        "Orientações claras e acompanhamento",
-        "Integração com equipe multidisciplinar"
+        "Protocolos especificos para mucosite e xerostomia",
+        "Laserterapia para reducao de dor e inflamacao",
+        "Relatorios alinhados com oncologia",
+        "Educacao do paciente e da familia"
       ],
-      "cta_label": "Solicitar avaliação",
+      "cta_label": "Planejar cuidado onco",
       "cta_action": "#contato",
       "is_active": true,
       "order": 3
+    },
+    {
+      "id": "service_4",
+      "title": "Laserterapia e Terapia Fotodinamica",
+      "description": "Tecnologia de baixa intensidade para cicatrizacao, analgesia e controle microbiano.",
+      "long_description": "Utilizamos laserterapia e terapia fotodinamica para tratar mucosites, aftas, herpes, escaras e dores musculares. As aplicacoes sao indolores, rapidas e reduzem o uso de analgesicos, melhorando alimentacao e fala. Indicada para pacientes onco, pos-operatorios, pessoas com disfagia ou xerostomia e equipes que desejam protocolos nao invasivos com resultados mensuraveis.",
+      "icon_name": "Sparkles",
+      "image_url": "https://images.unsplash.com/photo-1606811841689-126d0c44c54e?auto=format&fit=crop&w=1400&q=80",
+      "features_json": [
+        "Alivio de dor em minutos",
+        "Efeito anti-inflamatorio e cicatrizante",
+        "Aplicacao segura em ambiente hospitalar",
+        "Protocolos documentados para auditoria"
+      ],
+      "cta_label": "Solicitar plano de laser",
+      "cta_action": "#contato",
+      "is_active": true,
+      "order": 4
     }
   ],
   "portfolio": [
     {
       "id": "portfolio_1",
-      "title": "Caso clínico: manejo de mucosite",
+      "title": "Protocolo hospitalar para controle de mucosite",
       "category": "Oncologia",
-      "client": "Paciente sob quimioterapia",
-      "description": "Planejamento preventivo e manejo de mucosite com foco em conforto, higiene e alimentação segura durante o tratamento.",
+      "client": "Complexo Hospitalar Santa Genoveva",
+      "description": "Implementacao de rotina odontologica em UTI adulta com foco em prevencao de mucosite e infeccoes respiratorias. Treinamento da enfermagem, visitas diarias e laserterapia preventiva reduziram em 38 por cento os casos de mucosite grau III.",
       "image_url": "assets/images/portfolio/item-1.jpg",
       "gallery_json": [
+        "assets/images/portfolio/item-1.jpg",
+        "assets/images/portfolio/item-2.jpg",
+        "assets/images/portfolio/item-3.jpg"
+      ],
+      "tags_json": [
+        "laserterapia",
+        "hospitalar",
+        "mucosite"
+      ],
+      "is_featured": "true",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "portfolio_2",
+      "title": "Programa domiciliar para pacientes com disfagia",
+      "category": "Domiciliar",
+      "client": "Paciente acamado em home care",
+      "description": "Plano domiciliar com consultorio portatil, readequacao de protese e orientacao de cuidadores. Reducao de lesoes traumaticas e melhora da degluticao em seis semanas de acompanhamento intensivo.",
+      "image_url": "assets/images/portfolio/item-2.jpg",
+      "gallery_json": [
+        "assets/images/portfolio/item-2.jpg",
+        "assets/images/portfolio/item-3.jpg",
+        "assets/images/portfolio/item-1.jpg"
+      ],
+      "tags_json": [
+        "homecare",
+        "idosos",
+        "proteses"
+      ],
+      "is_featured": "false",
+      "is_active": true,
+      "order": 2
+    },
+    {
+      "id": "portfolio_3",
+      "title": "Suporte odontologico a pacientes em radioterapia",
+      "category": "Oncologia",
+      "client": "Clinica de Oncologia Regional",
+      "description": "Seguimento multiprofissional durante radioterapia de cabeca e pescoco. Laserterapia, manejo de xerostomia e orientacao alimentar resultaram em manutencao de peso e nenhum episodio de suspensao do tratamento medico.",
+      "image_url": "assets/images/portfolio/item-3.jpg",
+      "gallery_json": [
+        "assets/images/portfolio/item-3.jpg",
         "assets/images/portfolio/item-1.jpg",
         "assets/images/portfolio/item-2.jpg"
       ],
       "tags_json": [
         "oncologia",
-        "prevenção",
-        "humanizado"
+        "laser",
+        "qualidade de vida"
       ],
-      "is_featured": "true",
+      "is_featured": "false",
       "is_active": true,
-      "order": 1
+      "order": 3
     }
   ],
   "testimonials": [
     {
       "id": "testimonial_1",
-      "author_name": "Maria Silva",
-      "author_role": "Filha do paciente",
-      "author_company": "Acompanhante",
-      "content": "A atenção e o cuidado fizeram toda a diferença no conforto do meu pai. Comunicação clara, respeito e resultados visíveis desde as primeiras visitas.",
+      "author_name": "Maria Andrade",
+      "author_role": "Filha de paciente UTI",
+      "author_company": "Familia Andrade",
+      "content": "A equipe cuidou do meu pai diariamente na UTI. As orientacoes eram claras, a dor diminuiu e sentimos que ele estava sendo visto como pessoa. Profissionais humanos e muito tecnicos.",
       "avatar_url": "assets/images/testimonials/person-1.jpg",
       "rating": "5",
       "is_active": true,
@@ -529,40 +640,62 @@
     },
     {
       "id": "testimonial_2",
-      "author_name": "João Pereira",
-      "author_role": "Paciente",
-      "content": "Fui atendido em casa com toda a segurança. Recebi orientações simples e eficazes que melhoraram meu dia a dia.",
+      "author_name": "Joao Pereira",
+      "author_role": "Paciente domiciliar",
+      "content": "Recebi todo o tratamento em casa, com higiene impecavel e orientacoes que facilitaram a rotina da familia. Hoje consigo me alimentar sem desconforto.",
       "avatar_url": "assets/images/testimonials/person-2.jpg",
       "rating": "5",
       "is_active": true,
       "order": 2
+    },
+    {
+      "id": "testimonial_3",
+      "author_name": "Patricia Costa",
+      "author_role": "Enfermeira coordenadora",
+      "author_company": "Home Care Integral",
+      "content": "Os protocolos odontologicos reduziram significativamente as intercorrencias e deram mais seguranca para nossa equipe. Virou processo padrao.",
+      "avatar_url": "https://randomuser.me/api/portraits/women/47.jpg",
+      "rating": "5",
+      "is_active": true,
+      "order": 3
     }
   ],
   "team": [
     {
       "id": "team_1",
       "name": "Dra. Claudiane Santana Rezende",
-      "role": "Cirurgiã-dentista",
-      "bio": "Especialista em odontologia hospitalar e oncológica, com atuação focada em conforto, segurança e comunicação humanizada.",
-      "photo_url": "https://picsum.photos/seed/team-1/400/400",
+      "role": "Cirurgia-dentista hospitalar e onco",
+      "bio": "Especialista em protese dentaria, habilitada em odontologia hospitalar e laserterapia. Atua em UTI, oncologia e atendimento domiciliar com foco em protocolos seguros e humanizados.",
+      "photo_url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+      "email": "atendimentoodontodomiciliar@gmail.com",
+      "phone": "(34) 99977-7984",
       "is_active": true,
       "order": 1
+    },
+    {
+      "id": "team_2",
+      "name": "Dr. Rafael Albuquerque",
+      "role": "Cirurgiao-dentista intensivista",
+      "bio": "Profissional convidado para plantoes hospitalares e cobranca de protocolos de higiene oral em pacientes criticos. Apoia treinamentos de equipes e auditorias de biosseguranca.",
+      "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "order": 2
     }
   ],
   "pricing": [
     {
       "id": "price_1",
-      "plan_name": "Consulta Inicial",
-      "price": "249.9",
+      "plan_name": "Plano Avaliacao Hospitalar",
+      "price": "480",
       "currency": "BRL",
-      "period": "único",
-      "description": "Avaliação clínica, anamnese, orientações iniciais e plano de cuidados.",
+      "period": "visita",
+      "description": "Visita ao leito, avaliacao de risco, relatorio para equipe medica e orientacao a familiares.",
       "features_json": [
-        "Triagem e anamnese completa",
-        "Plano de cuidado inicial",
-        "Orientações de higiene e analgesia"
+        "Planejamento personalizado",
+        "Relatorio detalhado para equipe medica",
+        "Materiais educativos exclusivos"
       ],
-      "cta_label": "Agendar",
+      "cta_label": "Solicitar avaliacao",
       "cta_action": "#contato",
       "is_highlighted": "false",
       "is_active": true,
@@ -570,67 +703,153 @@
     },
     {
       "id": "price_2",
-      "plan_name": "Acompanhamento Mensal",
-      "price": "599.9",
+      "plan_name": "Plano Domiciliar Continuo",
+      "price": "890",
       "currency": "BRL",
       "period": "mensal",
-      "description": "Visitas programadas, acompanhamento de protocolos e suporte contínuo.",
+      "description": "Duas visitas em domicilio, suporte remoto, ajuste protetico e kit de higiene personalizado.",
       "features_json": [
-        "2 visitas mensais",
-        "Ajustes de protocolo",
-        "Canal de suporte dedicado"
+        "Planejamento personalizado",
+        "Relatorio detalhado para equipe medica",
+        "Materiais educativos exclusivos"
       ],
-      "cta_label": "Contratar",
+      "cta_label": "Contratar cuidado",
       "cta_action": "#contato",
       "is_highlighted": "true",
       "is_active": true,
       "order": 2
+    },
+    {
+      "id": "price_3",
+      "plan_name": "Plano Onco Laser Premium",
+      "price": "1290",
+      "currency": "BRL",
+      "period": "pacote",
+      "description": "Sessao pre-tratamento mais quatro sessoes de laserterapia, monitoramento e relatorio multiprofissional.",
+      "features_json": [
+        "Planejamento personalizado",
+        "Relatorio detalhado para equipe medica",
+        "Materiais educativos exclusivos"
+      ],
+      "cta_label": "Reservar pacote",
+      "cta_action": "#contato",
+      "is_highlighted": "false",
+      "is_active": true,
+      "order": 3
     }
   ],
   "faq": [
     {
       "id": "faq_1",
-      "question": "Como funciona o atendimento domiciliar?",
-      "answer": "Realizamos uma avaliação prévia e agendamos a visita com equipamentos portáteis, seguindo protocolos de segurança e higiene.",
-      "category": "Geral",
+      "question": "Como a odontologia hospitalar ajuda na UTI?",
+      "answer": "O cirurgiao-dentista avalia diariamente a cavidade oral, remove focos infecciosos, aplica laser quando necessario e orienta a equipe sobre higiene ideal. Isso reduz pneumonias associadas a ventilacao e melhora o conforto do paciente.",
+      "category": "Hospitalar",
       "is_active": true,
       "order": 1
     },
     {
       "id": "faq_2",
-      "question": "Atende pacientes em tratamento oncológico?",
-      "answer": "Sim, com foco em prevenção de complicações orais e conforto durante todo o tratamento, em conjunto com a equipe médica.",
-      "category": "Oncologia",
+      "question": "Quais pacientes podem receber atendimento domiciliar?",
+      "answer": "Pacientes idosos, acamados, com mobilidade reduzida, em pos-operatorio, com deficiencias neurologicas ou necessidades especiais. Levamos consultorio portatil e adaptamos o protocolo a rotina da casa.",
+      "category": "Domiciliar",
       "is_active": true,
       "order": 2
+    },
+    {
+      "id": "faq_3",
+      "question": "Quando indicar laserterapia para pacientes onco?",
+      "answer": "Indicamos no pre, durante e pos quimio ou radioterapia para prevenir mucosite, candidiase, dor e xerostomia. O laser acelera cicatrizacao e ajuda na manutencao da alimentacao.",
+      "category": "Oncologia",
+      "is_active": true,
+      "order": 3
+    },
+    {
+      "id": "faq_4",
+      "question": "O atendimento interfere no plano medico?",
+      "answer": "Trabalhamos em integracao com a equipe medica. Enviamos relatorios, alinhamos condutas e usamos protocolos aprovados. Todo material segue normas de biosseguranca hospitalar.",
+      "category": "Hospitalar",
+      "is_active": true,
+      "order": 4
+    },
+    {
+      "id": "faq_5",
+      "question": "O que esta incluso no plano domiciliar?",
+      "answer": "Visitas programadas, profilaxias, ajustes proteticos, orientacoes de higiene, telemonitoramento e relatorio para medicos quando necessario. Materiais descartaveis e EPIs estao inclusos.",
+      "category": "Domiciliar",
+      "is_active": true,
+      "order": 5
+    },
+    {
+      "id": "faq_6",
+      "question": "Como preparar o paciente para radioterapia?",
+      "answer": "Recomendamos avaliacao odontologica previa para eliminar focos infecciosos, realizar profilaxia, orientar sobre higiene e iniciar laser preventivo. Seguimos acompanhando cada fase do tratamento.",
+      "category": "Oncologia",
+      "is_active": true,
+      "order": 6
     }
   ],
   "blog_posts": [
     {
       "id": "post_1",
-      "title": "Cuidados bucais durante o tratamento oncológico",
-      "slug": "cuidados-bucais-tratamento-oncologico",
-      "excerpt": "Dicas práticas para reduzir desconfortos e prevenir complicações orais durante as terapias.",
-      "content": "## Guia prático- Hidratação constante- Higiene oral suave- Acompanhamento odontológico regular",
-      "author": "Dra. Claudiane",
+      "title": "Guia de higiene oral para pacientes hospitalizados",
+      "slug": "higiene-oral-pacientes-hospitalizados",
+      "excerpt": "Checklist pratico para equipes de enfermagem manterem a cavidade oral saudavel em UTI e enfermarias.",
+      "content": "## Passos diarios1. Avaliar labios, mucosas e lingua antes da higiene.2. Utilizar antisseptico prescrito e gaze umedecida a cada 8 horas.3. Hidratar labios e mucosa apos cada limpeza para evitar fissuras.> Protocolos padronizados previnem infeccoes respiratorias e melhoram a experiencia do paciente.",
+      "author": "Dra. Claudiane Rezende",
       "featured_image": "assets/images/blog/cover-1.jpg",
-      "category": "Educação",
+      "category": "Hospitalar",
       "tags_json": [
-        "oncologia",
-        "cuidados",
-        "saúde bucal"
+        "UTI",
+        "higiene oral",
+        "enfermagem"
       ],
       "published_date": "2025-10-15",
       "is_published": "true",
       "is_featured": "true"
+    },
+    {
+      "id": "post_2",
+      "title": "Como o dentista contribui no tratamento onco",
+      "slug": "odontologia-no-tratamento-onco",
+      "excerpt": "Saiba porque a avaliacao odontologica antes da quimio e radioterapia faz diferenca nos resultados.",
+      "content": "### Beneficios diretos- Reduz mucosite, dor e necessidade de interrupcao da terapia medica.- Auxilia na manutencao da alimentacao e do peso.- Oferece suporte emocional com orientacoes claras e acompanhamento proximo.",
+      "author": "Dra. Claudiane Rezende",
+      "featured_image": "assets/images/blog/cover-2.jpg",
+      "category": "Oncologia",
+      "tags_json": [
+        "laserterapia",
+        "qualidade de vida",
+        "oncologia"
+      ],
+      "published_date": "2025-10-15",
+      "is_published": "true",
+      "is_featured": "false"
+    },
+    {
+      "id": "post_3",
+      "title": "Atendimento odontologico domiciliar: o que esperar",
+      "slug": "atendimento-odontologico-domiciliar",
+      "excerpt": "Entenda como funciona a visita odontologica em casa, quem pode solicitar e quais resultados esperar.",
+      "content": "Atuamos com consultorio portatil, EPIs e protocolos de biosseguranca. Durante a visita realizamos avaliacao clinica, registros fotograficos, orientacoes individualizadas e entregamos plano de continuidade com telemonitoramento.",
+      "author": "Dra. Claudiane Rezende",
+      "featured_image": "assets/images/blog/cover-3.jpg",
+      "category": "Domiciliar",
+      "tags_json": [
+        "homecare",
+        "idosos",
+        "saude bucal"
+      ],
+      "published_date": "2025-10-15",
+      "is_published": "true",
+      "is_featured": "false"
     }
   ],
   "cta_blocks": [
     {
       "id": "cta_home",
-      "headline": "Pronto para cuidar do seu sorriso?",
-      "subheadline": "Entre em contato e vamos planejar um cuidado seguro, humano e eficaz",
-      "cta_label": "Fale Conosco",
+      "headline": "Pronto para humanizar o cuidado odontologico?",
+      "subheadline": "Agende uma conversa e leve protocolos seguros para hospital, home care ou consultorio.",
+      "cta_label": "Falar com especialista",
       "cta_action": "#contato",
       "cta_style": "primary",
       "background_color": "#22c55e",
@@ -638,6 +857,19 @@
       "is_active": true,
       "placement": "home",
       "icon_name": "Send"
+    },
+    {
+      "id": "cta_blog",
+      "headline": "Receba protocolos e dicas exclusivas",
+      "subheadline": "Assine a newsletter e fique por dentro de atualizacoes sobre odontologia hospitalar e domiciliar.",
+      "cta_label": "Quero me inscrever",
+      "cta_action": "#contato",
+      "cta_style": "secondary",
+      "background_color": "#ec4899",
+      "background_image": "https://images.unsplash.com/photo-1580281658629-6021c0f37c1d?auto=format&fit=crop&w=1600&q=80",
+      "is_active": true,
+      "placement": "blog",
+      "icon_name": "Mail"
     }
   ],
   "home": [],
@@ -649,7 +881,7 @@
   "blog": [],
   "footer": [],
   "_metadata": {
-    "syncedAt": "2025-10-19T18:35:41.838Z",
+    "syncedAt": "2025-10-19T20:30:14.720Z",
     "syncedBy": "telsnt@gmail.com",
     "projeto": "claudiane-site",
     "abasProcessadas": 13,
