@@ -11,7 +11,7 @@
     "favicon_url": "assets/logo.svg",
     "email": "atendimentoodontodomiciliar@gmail.com",
     "phone": "(34) 99977-7984",
-    "whatsapp": "34999777984",
+    "whatsapp": "5534999777984",
     "whatsapp_message": "Ola! Gostaria de agendar uma avaliacao odontologica especializada.",
     "address_street": "Rua Aruã 597 Jardim Karaíba Uberlândia MG CEP 38.411-360",
     "address_city": "Uberlândia",
@@ -23,6 +23,36 @@
     "meta_title": "Dra. Claudiane Santana Rezende - Odontologia Hospitalar e Domiciliar",
     "meta_description": "Odontologia hospitalar, domiciliar e onco com protocolos seguros, equipe humana e foco em conforto."
   },
+  "sobre": [
+    {
+      "id": "sobre_historia",
+      "is_active": true,
+      "order": 1,
+      "headline": "Odontologia do Cuidado: técnica, acolhimento e acessibilidade",
+      "description": "A Dra. Claudiane Santana Rezende é dentista e criadora do conceito Odontologia do Cuidado — uma forma de atender que une técnica, acolhimento e acessibilidade para levar saúde bucal onde o paciente está: no consultório, no hospital ou em casa. Seu trabalho é centrado nas necessidades de pessoas em situações delicadas (oncológicos, idosos, acamados e crianças), com linguagem clara, escuta ativa e foco na qualidade de vida.",
+      "highlights_json": [],
+      "image_url": "assets/images/about/dra-claudiane-atendimento.jpg",
+      "image_alt": "Dra. Claudiane realizando atendimento odontológico domiciliar"
+    },
+    {
+      "id": "sobre_credenciais",
+      "is_active": true,
+      "order": 2,
+      "headline": "Caminho profissional dedicado a quem mais precisa",
+      "description": "Especialista em Prótese Dentária • Habilitada em Laserterapia e Odontologia Hospitalar • Instrutora do Depto. de Odontologia da AMIB • Filiada ao ILAS • CRO/MG 33.184.",
+      "highlights_json": [
+        "Especialista em Prótese Dentária",
+        "Habilitada em Laserterapia e Odontologia Hospitalar",
+        "Instrutora do Depto. de Odontologia da AMIB",
+        "Filiada ao ILAS",
+        "CRO/MG 33.184."
+      ],
+      "quote_text": "“Cada sorriso tem uma história. Estou aqui para cuidar da sua.”",
+      "quote_author": "Dra. Claudiane Santana Rezende",
+      "image_url": "assets/images/about/dra-claudiane-portrait.jpg",
+      "image_alt": "Retrato da Dra. Claudiane Santana Rezende sorrindo"
+    }
+  ],
   "sections": [
     {
       "id": "hero",
@@ -873,7 +903,6 @@
     }
   ],
   "home": [],
-  "sobre": [],
   "contato": [],
   "diferencial": [],
   "produtos": [],
@@ -881,10 +910,10 @@
   "blog": [],
   "footer": [],
   "_metadata": {
-    "syncedAt": "2025-10-19T20:59:49.774Z",
+    "syncedAt": "2025-10-19T21:36:02.323Z",
     "syncedBy": "telsnt@gmail.com",
     "projeto": "claudiane-site",
-    "abasProcessadas": 13,
+    "abasProcessadas": 14,
     "version": 2
   }
 }
