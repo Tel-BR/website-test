@@ -1,179 +1,129 @@
 {
-  "config": [
+  "config": {
+    "site_name": "Dra. Claudiane Santana Rezende",
+    "site_tagline": "Cuidado odontológico humano, onde você estiver.",
+    "primary_color": "#22c55e",
+    "secondary_color": "#ec4899",
+    "accent_color": "#f59e0b",
+    "primary_font": "Inter",
+    "secondary_font": "Poppins",
+    "logo_url": "https://dummyimage.com/256x64/22c55e/ffffff.png&text=Dra.%20Claudiane%20Santana%20Rezende",
+    "favicon_url": "https://dummyimage.com/32x32/22c55e/ffffff.png",
+    "email": "atendimentoodontodomiciliar@gmail.com",
+    "phone": "(34) 99977-7984",
+    "whatsapp": "34999777984",
+    "whatsapp_message": "Olá! Vim pelo site e gostaria de mais informações.",
+    "address_street": "Rua Aruã 597 Jardim Karaíba Uberlândia MG CEP 38.411-360",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Rua%20Aru%C3%A3%20597%20Jardim%20Kara%C3%ADba%20Uberl%C3%A2ndia%20MG%20CEP%2038.411-360",
+    "facebook_url": "https://www.facebook.com/claudiane.s.rezende/",
+    "instagram_url": "https://instagram.com/claudianerezende",
+    "meta_title": "Dra. Claudiane Santana Rezende - Especialistas em Odontologia",
+    "meta_description": "Atendimento odontológico humanizado em hospitais, domicílios e clínicas. Qualidade, segurança e acolhimento em cada consulta."
+  },
+  "sections": [
     {
-      "field": "site_name",
-      "type": "text",
-      "value": "Dra. Claudiane Santana Rezende",
-      "instructions": "Nome da empresa/site (max 100 caracteres)",
-      "example": "Consultoria Silva"
+      "id": "hero",
+      "page": "home",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "hero",
+      "icon_name": "Megaphone"
     },
     {
-      "field": "site_tagline",
-      "type": "text",
-      "value": "Cuidado odontológico humano, onde você estiver.",
-      "instructions": "Slogan/descrição curta (max 200 caracteres)",
-      "example": "Transformando negócios desde 2010"
+      "id": "about-main",
+      "page": "sobre",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "about",
+      "icon_name": "UserRound"
     },
     {
-      "field": "site_domain",
-      "type": "url",
-      "instructions": "Domínio sem https://",
-      "example": "consultoriasilva.com.br"
+      "id": "services-grid",
+      "page": "servicos",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "services",
+      "icon_name": "Briefcase"
     },
     {
-      "field": "primary_color",
-      "type": "color",
-      "value": "#22c55e",
-      "instructions": "Cor primária em hexadecimal",
-      "example": "#3b82f6"
+      "id": "differentials",
+      "page": "diferencial",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "features",
+      "icon_name": "Sparkles"
     },
     {
-      "field": "secondary_color",
-      "type": "color",
-      "value": "#ec4899",
-      "instructions": "Cor secundária em hexadecimal",
-      "example": "#10b981"
+      "id": "products-grid",
+      "page": "produtos",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "products",
+      "icon_name": "Package"
     },
     {
-      "field": "accent_color",
-      "type": "color",
-      "value": "#f59e0b",
-      "instructions": "Cor de destaque",
-      "example": "#f59e0b"
+      "id": "portfolio-gallery",
+      "page": "portfolio",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "gallery",
+      "icon_name": "Images"
     },
     {
-      "field": "primary_font",
-      "type": "text",
-      "value": "Inter",
-      "instructions": "Fonte para títulos",
-      "example": "Inter"
+      "id": "blog-list",
+      "page": "blog",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "blog",
+      "icon_name": "Newspaper"
     },
     {
-      "field": "secondary_font",
-      "type": "text",
-      "value": "Poppins",
-      "instructions": "Fonte para corpo de texto",
-      "example": "Open Sans"
+      "id": "testimonials",
+      "page": "depoimentos",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "testimonials",
+      "icon_name": "MessageCircle"
     },
     {
-      "field": "logo_url",
-      "type": "url",
-      "value": "https://dummyimage.com/256x64/22c55e/ffffff.png&text=Dra.%20Claudiane%20Santana%20Rezende",
-      "instructions": "URL do logo (placeholder se não houver)",
-      "example": "https://dummyimage.com/256x64/16a34a/ffffff.png&text=LOGO"
+      "id": "faq-accordion",
+      "page": "faq",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "faq",
+      "icon_name": "HelpCircle"
     },
     {
-      "field": "favicon_url",
-      "type": "url",
-      "value": "https://dummyimage.com/32x32/22c55e/ffffff.png",
-      "instructions": "URL do favicon (placeholder se não houver)",
-      "example": "https://dummyimage.com/32x32/16a34a/ffffff.png"
+      "id": "cta-banner",
+      "page": "cta",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "cta",
+      "icon_name": "Sparkles"
     },
     {
-      "field": "email",
-      "type": "email",
-      "value": "atendimentoodontodomiciliar@gmail.com",
-      "instructions": "Email principal de contato",
-      "example": "contato@example.com"
+      "id": "contact-cta",
+      "page": "contato",
+      "is_active": true,
+      "priority": 1,
+      "component_type": "contact",
+      "icon_name": "Phone"
     },
     {
-      "field": "phone",
-      "type": "phone",
-      "value": "(34) 99977-7984",
-      "instructions": "Telefone formatado",
-      "example": "(11) 99999-9999"
+      "id": "about-preview",
+      "page": "home",
+      "is_active": true,
+      "priority": 2,
+      "component_type": "about",
+      "icon_name": "UserRound"
     },
     {
-      "field": "whatsapp",
-      "type": "phone",
-      "value": "34999777984",
-      "instructions": "WhatsApp (apenas números)",
-      "example": "5511999999999"
-    },
-    {
-      "field": "whatsapp_message",
-      "type": "text",
-      "value": "Olá! Vim pelo site e gostaria de mais informações.",
-      "instructions": "Mensagem padrão do WhatsApp",
-      "example": "Olá! Vim pelo site..."
-    },
-    {
-      "field": "address_street",
-      "type": "text",
-      "value": "Rua Aruã 597 Jardim Karaíba Uberlândia MG CEP 38.411-360",
-      "instructions": "Endereço completo (linha única)",
-      "example": "Rua Exemplo, 123, Bairro, Cidade - UF, CEP"
-    },
-    {
-      "field": "address_city",
-      "type": "text",
-      "instructions": "Cidade",
-      "example": "São Paulo"
-    },
-    {
-      "field": "address_state",
-      "type": "text",
-      "instructions": "Estado (sigla)",
-      "example": "SP"
-    },
-    {
-      "field": "address_zipcode",
-      "type": "text",
-      "instructions": "CEP",
-      "example": "01234-567"
-    },
-    {
-      "field": "maps_url",
-      "type": "url",
-      "value": "https://www.google.com/maps/search/?api=1&query=Rua%20Aru%C3%A3%20597%20Jardim%20Kara%C3%ADba%20Uberl%C3%A2ndia%20MG%20CEP%2038.411-360",
-      "instructions": "URL do Google Maps",
-      "example": "https://maps.google.com/..."
-    },
-    {
-      "field": "facebook_url",
-      "type": "url",
-      "value": "https://www.facebook.com/claudiane.s.rezende/",
-      "instructions": "URL da página do Facebook",
-      "example": "https://facebook.com/..."
-    },
-    {
-      "field": "instagram_url",
-      "type": "url",
-      "value": "https://instagram.com/claudianerezende",
-      "instructions": "URL do Instagram",
-      "example": "https://instagram.com/..."
-    },
-    {
-      "field": "linkedin_url",
-      "type": "url",
-      "instructions": "URL do LinkedIn",
-      "example": "https://linkedin.com/company/..."
-    },
-    {
-      "field": "youtube_url",
-      "type": "url",
-      "instructions": "URL do YouTube",
-      "example": "https://youtube.com/..."
-    },
-    {
-      "field": "meta_title",
-      "type": "text",
-      "value": "Dra. Claudiane Santana Rezende - Especialistas em Odontologia",
-      "instructions": "Título para SEO (max 60 caracteres)",
-      "example": "Consultoria Silva - Especialistas em..."
-    },
-    {
-      "field": "meta_description",
-      "type": "text",
-      "value": "Atendimento odontológico humanizado em hospitais, domicílios e clínicas. Qualidade, segurança e acolhimento em cada consulta.",
-      "instructions": "Descrição para SEO (max 160 caracteres)",
-      "example": "Há 15 anos transformando..."
-    },
-    {
-      "field": "google_analytics_id",
-      "type": "text",
-      "instructions": "ID do Google Analytics (opcional)",
-      "example": "G-XXXXXXXXXX"
+      "id": "pricing",
+      "page": "servicos",
+      "is_active": true,
+      "priority": 7,
+      "component_type": "pricing",
+      "icon_name": "Tags"
     }
   ],
   "seo": [
@@ -183,7 +133,12 @@
       "page_or_slug": "global",
       "meta_title": "Dra. Claudiane Santana Rezende",
       "meta_description": "Atendimento odontológico humanizado em hospitais, domicílios e clínicas.",
-      "keywords_json": "[\"odontologia\",\"hospitalar\",\"domiciliar\",\"oncológica\"]",
+      "keywords_json": [
+        "odontologia",
+        "hospitalar",
+        "domiciliar",
+        "oncológica"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende",
       "og_description": "Cuidado odontológico com segurança, empatia e resultados.",
       "og_image": "https://picsum.photos/seed/og-1/1200/630",
@@ -197,7 +152,11 @@
       "page_or_slug": "home",
       "meta_title": "Dra. Claudiane Santana Rezende - home",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"home\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "home",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - home",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-2/1200/630",
@@ -211,7 +170,11 @@
       "page_or_slug": "sobre",
       "meta_title": "Dra. Claudiane Santana Rezende - sobre",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"sobre\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "sobre",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - sobre",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-3/1200/630",
@@ -225,7 +188,11 @@
       "page_or_slug": "servicos",
       "meta_title": "Dra. Claudiane Santana Rezende - servicos",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"servicos\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "servicos",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - servicos",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-4/1200/630",
@@ -239,7 +206,11 @@
       "page_or_slug": "diferencial",
       "meta_title": "Dra. Claudiane Santana Rezende - diferencial",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"diferencial\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "diferencial",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - diferencial",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-5/1200/630",
@@ -253,7 +224,11 @@
       "page_or_slug": "produtos",
       "meta_title": "Dra. Claudiane Santana Rezende - produtos",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"produtos\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "produtos",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - produtos",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-6/1200/630",
@@ -267,7 +242,11 @@
       "page_or_slug": "portfolio",
       "meta_title": "Dra. Claudiane Santana Rezende - portfolio",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"portfolio\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "portfolio",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - portfolio",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-7/1200/630",
@@ -281,7 +260,11 @@
       "page_or_slug": "blog",
       "meta_title": "Dra. Claudiane Santana Rezende - blog",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"blog\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "blog",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - blog",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-8/1200/630",
@@ -295,7 +278,11 @@
       "page_or_slug": "depoimentos",
       "meta_title": "Dra. Claudiane Santana Rezende - depoimentos",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"depoimentos\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "depoimentos",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - depoimentos",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-9/1200/630",
@@ -309,7 +296,11 @@
       "page_or_slug": "faq",
       "meta_title": "Dra. Claudiane Santana Rezende - faq",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"faq\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "faq",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - faq",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-10/1200/630",
@@ -323,7 +314,11 @@
       "page_or_slug": "cta",
       "meta_title": "Dra. Claudiane Santana Rezende - cta",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"cta\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "cta",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - cta",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-11/1200/630",
@@ -337,7 +332,11 @@
       "page_or_slug": "contato",
       "meta_title": "Dra. Claudiane Santana Rezende - contato",
       "meta_description": "Conteúdo informativo e orientado ao paciente, com foco em clareza.",
-      "keywords_json": "[\"contato\",\"odontologia\",\"serviços\"]",
+      "keywords_json": [
+        "contato",
+        "odontologia",
+        "serviços"
+      ],
       "og_title": "Dra. Claudiane Santana Rezende - contato",
       "og_description": "Odontologia humanizada com protocolos de segurança.",
       "og_image": "https://picsum.photos/seed/og-12/1200/630",
@@ -351,13 +350,147 @@
       "page_or_slug": "cuidados-bucais-tratamento-oncologico",
       "meta_title": "Cuidados bucais durante o tratamento oncológico",
       "meta_description": "Dicas práticas para reduzir desconfortos e prevenir complicações orais durante as terapias.",
-      "keywords_json": "[\"Educação\"]",
+      "keywords_json": [
+        "Educação"
+      ],
       "og_title": "Cuidados bucais durante o tratamento oncológico",
       "og_description": "Leia o artigo completo no blog.",
       "og_image": "assets/images/blog/cover-1.jpg",
       "robots": "index,follow",
       "twitter_card": "summary_large_image",
       "language": "pt-BR"
+    }
+  ],
+  "menu": [
+    {
+      "id": "menu_home",
+      "label": "Início",
+      "anchor": "#hero",
+      "type": "link",
+      "order": 1,
+      "is_active": true,
+      "icon_name": "Home"
+    },
+    {
+      "id": "menu_about",
+      "label": "Sobre",
+      "anchor": "#sobre",
+      "type": "link",
+      "order": 2,
+      "is_active": true,
+      "icon_name": "Info"
+    },
+    {
+      "id": "menu_services",
+      "label": "Serviços",
+      "anchor": "#servicos",
+      "type": "link",
+      "order": 3,
+      "is_active": true,
+      "icon_name": "Briefcase"
+    },
+    {
+      "id": "menu_portfolio",
+      "label": "Portfólio",
+      "anchor": "#portfolio",
+      "type": "link",
+      "order": 4,
+      "is_active": true,
+      "icon_name": "Images"
+    },
+    {
+      "id": "menu_contact",
+      "label": "Contato",
+      "anchor": "#contato",
+      "type": "link",
+      "order": 5,
+      "is_active": true,
+      "icon_name": "Phone"
+    }
+  ],
+  "hero": [
+    {
+      "id": "hero_slide_1",
+      "headline": "Cuidado odontológico que acolhe você onde estiver",
+      "subheadline": "Atendimento hospitalar, domiciliar e clínico com foco em conforto, segurança e resultados",
+      "cta_label": "Fale com a doutora",
+      "cta_action": "#contato",
+      "cta_style": "primary",
+      "image_url": "assets/images/hero/slide-1.jpg",
+      "image_alt": "Primeira imagem do carrossel",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "hero_slide_2",
+      "headline": "Oncologia e odontologia com empatia e precisão",
+      "subheadline": "Protocolos seguros e comunicação clara, do primeiro contato ao pós-atendimento",
+      "cta_label": "Agendar avaliação",
+      "cta_action": "#servicos",
+      "cta_style": "secondary",
+      "image_url": "assets/images/hero/slide-2.jpg",
+      "image_alt": "Segunda imagem do carrossel",
+      "is_active": true,
+      "order": 2
+    }
+  ],
+  "services": [
+    {
+      "id": "service_1",
+      "title": "Odontologia Hospitalar",
+      "description": "Atendimento odontológico integrado ao cuidado hospitalar, com foco em segurança e protocolos",
+      "long_description": "Atendimento odontológico especializado dentro do ambiente hospitalar, com integração à equipe multidisciplinar. Adotamos protocolos de segurança, prevenção de infecções e manejo de dor para pacientes em diferentes condições clínicas. Priorizamos conforto, acolhimento e comunicação clara com familiares e profissionais de saúde, assegurando resultados previsíveis e humanizados.",
+      "icon_name": "Hospital",
+      "image_url": "assets/images/services/service-1.jpg",
+      "features_json": [
+        "Atendimento humanizado e seguro",
+        "Protocolos clínicos baseados em evidências",
+        "Plano de cuidado personalizado",
+        "Orientações claras e acompanhamento",
+        "Integração com equipe multidisciplinar"
+      ],
+      "cta_label": "Fale com especialista",
+      "cta_action": "#contato",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "service_2",
+      "title": "Atendimento Domiciliar",
+      "description": "Cuidado odontológico no conforto da sua casa, com protocolos e equipamentos portáteis",
+      "long_description": "Serviço de atendimento odontológico em domicílio voltado a pacientes com mobilidade reduzida, pós-operatório ou necessidade de acompanhamento contínuo. Utilizamos equipamentos portáteis, boas práticas de higiene e planejamento personalizado, garantindo qualidade clínica, orientações claras e acompanhamento remoto quando necessário.",
+      "icon_name": "Home",
+      "image_url": "assets/images/services/service-2.jpg",
+      "features_json": [
+        "Atendimento humanizado e seguro",
+        "Protocolos clínicos baseados em evidências",
+        "Plano de cuidado personalizado",
+        "Orientações claras e acompanhamento",
+        "Integração com equipe multidisciplinar"
+      ],
+      "cta_label": "Solicitar avaliação",
+      "cta_action": "#contato",
+      "is_active": true,
+      "order": 2
+    },
+    {
+      "id": "service_3",
+      "title": "Odontologia Oncológica",
+      "description": "Prevenção, suporte e tratamento odontológico durante terapias oncológicas",
+      "long_description": "Atuação odontológica preventiva e terapêutica para pacientes em tratamento oncológico, com foco em redução de complicações orais, melhora do conforto e qualidade de vida. Trabalhamos protocolos baseados em evidências, educação do paciente e acompanhamento contínuo em conjunto com a equipe médica.",
+      "icon_name": "ShieldCheck",
+      "image_url": "assets/images/services/service-3.jpg",
+      "features_json": [
+        "Atendimento humanizado e seguro",
+        "Protocolos clínicos baseados em evidências",
+        "Plano de cuidado personalizado",
+        "Orientações claras e acompanhamento",
+        "Integração com equipe multidisciplinar"
+      ],
+      "cta_label": "Solicitar avaliação",
+      "cta_action": "#contato",
+      "is_active": true,
+      "order": 3
     }
   ],
   "portfolio": [
@@ -368,11 +501,90 @@
       "client": "Paciente sob quimioterapia",
       "description": "Planejamento preventivo e manejo de mucosite com foco em conforto, higiene e alimentação segura durante o tratamento.",
       "image_url": "assets/images/portfolio/item-1.jpg",
-      "gallery_json": "[\"assets/images/portfolio/item-1.jpg\",\"assets/images/portfolio/item-2.jpg\"]",
-      "tags_json": "[\"oncologia\",\"prevenção\",\"humanizado\"]",
+      "gallery_json": [
+        "assets/images/portfolio/item-1.jpg",
+        "assets/images/portfolio/item-2.jpg"
+      ],
+      "tags_json": [
+        "oncologia",
+        "prevenção",
+        "humanizado"
+      ],
       "is_featured": "true",
-      "is_active": "true",
-      "order": "1"
+      "is_active": true,
+      "order": 1
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial_1",
+      "author_name": "Maria Silva",
+      "author_role": "Filha do paciente",
+      "author_company": "Acompanhante",
+      "content": "A atenção e o cuidado fizeram toda a diferença no conforto do meu pai. Comunicação clara, respeito e resultados visíveis desde as primeiras visitas.",
+      "avatar_url": "assets/images/testimonials/person-1.jpg",
+      "rating": "5",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "testimonial_2",
+      "author_name": "João Pereira",
+      "author_role": "Paciente",
+      "content": "Fui atendido em casa com toda a segurança. Recebi orientações simples e eficazes que melhoraram meu dia a dia.",
+      "avatar_url": "assets/images/testimonials/person-2.jpg",
+      "rating": "5",
+      "is_active": true,
+      "order": 2
+    }
+  ],
+  "team": [
+    {
+      "id": "team_1",
+      "name": "Dra. Claudiane Santana Rezende",
+      "role": "Cirurgiã-dentista",
+      "bio": "Especialista em odontologia hospitalar e oncológica, com atuação focada em conforto, segurança e comunicação humanizada.",
+      "photo_url": "https://picsum.photos/seed/team-1/400/400",
+      "is_active": true,
+      "order": 1
+    }
+  ],
+  "pricing": [
+    {
+      "id": "price_1",
+      "plan_name": "Consulta Inicial",
+      "price": "249.9",
+      "currency": "BRL",
+      "period": "único",
+      "description": "Avaliação clínica, anamnese, orientações iniciais e plano de cuidados.",
+      "features_json": [
+        "Triagem e anamnese completa",
+        "Plano de cuidado inicial",
+        "Orientações de higiene e analgesia"
+      ],
+      "cta_label": "Agendar",
+      "cta_action": "#contato",
+      "is_highlighted": "false",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "price_2",
+      "plan_name": "Acompanhamento Mensal",
+      "price": "599.9",
+      "currency": "BRL",
+      "period": "mensal",
+      "description": "Visitas programadas, acompanhamento de protocolos e suporte contínuo.",
+      "features_json": [
+        "2 visitas mensais",
+        "Ajustes de protocolo",
+        "Canal de suporte dedicado"
+      ],
+      "cta_label": "Contratar",
+      "cta_action": "#contato",
+      "is_highlighted": "true",
+      "is_active": true,
+      "order": 2
     }
   ],
   "faq": [
@@ -381,22 +593,66 @@
       "question": "Como funciona o atendimento domiciliar?",
       "answer": "Realizamos uma avaliação prévia e agendamos a visita com equipamentos portáteis, seguindo protocolos de segurança e higiene.",
       "category": "Geral",
-      "is_active": "true",
-      "order": "1"
+      "is_active": true,
+      "order": 1
     },
     {
       "id": "faq_2",
       "question": "Atende pacientes em tratamento oncológico?",
       "answer": "Sim, com foco em prevenção de complicações orais e conforto durante todo o tratamento, em conjunto com a equipe médica.",
       "category": "Oncologia",
-      "is_active": "true",
-      "order": "2"
+      "is_active": true,
+      "order": 2
     }
   ],
+  "blog_posts": [
+    {
+      "id": "post_1",
+      "title": "Cuidados bucais durante o tratamento oncológico",
+      "slug": "cuidados-bucais-tratamento-oncologico",
+      "excerpt": "Dicas práticas para reduzir desconfortos e prevenir complicações orais durante as terapias.",
+      "content": "## Guia prático- Hidratação constante- Higiene oral suave- Acompanhamento odontológico regular",
+      "author": "Dra. Claudiane",
+      "featured_image": "assets/images/blog/cover-1.jpg",
+      "category": "Educação",
+      "tags_json": [
+        "oncologia",
+        "cuidados",
+        "saúde bucal"
+      ],
+      "published_date": "2025-10-15",
+      "is_published": "true",
+      "is_featured": "true"
+    }
+  ],
+  "cta_blocks": [
+    {
+      "id": "cta_home",
+      "headline": "Pronto para cuidar do seu sorriso?",
+      "subheadline": "Entre em contato e vamos planejar um cuidado seguro, humano e eficaz",
+      "cta_label": "Fale Conosco",
+      "cta_action": "#contato",
+      "cta_style": "primary",
+      "background_color": "#22c55e",
+      "background_image": "assets/images/cta/background.jpg",
+      "is_active": true,
+      "placement": "home",
+      "icon_name": "Send"
+    }
+  ],
+  "home": [],
+  "sobre": [],
+  "contato": [],
+  "diferencial": [],
+  "produtos": [],
+  "depoimentos": [],
+  "blog": [],
+  "footer": [],
   "_metadata": {
-    "syncedAt": "2025-10-19T13:06:04.996Z",
+    "syncedAt": "2025-10-19T18:35:41.838Z",
     "syncedBy": "telsnt@gmail.com",
     "projeto": "claudiane-site",
+    "abasProcessadas": 13,
     "version": 2
   }
 }
