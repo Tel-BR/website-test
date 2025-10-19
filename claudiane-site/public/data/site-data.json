@@ -464,25 +464,25 @@
   "hero": [
     {
       "id": "hero_slide_1",
-      "headline": "Odontologia hospitalar que cuida de cada detalhe",
+      "headline": "Saúde bucal onde você está — hospital, casa ou consultório",
       "subheadline": "Integramos o cirurgiao-dentista a UTI e enfermarias para prevenir infeccoes, aliviar dores e humanizar o cuidado.",
       "cta_label": "Fale com a doutora",
       "cta_action": "#contato",
       "cta_style": "primary",
-      "image_url": "assets/images/hero/slide-1.jpg",
-      "image_alt": "Primeira imagem do carrossel",
+      "image_url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600&auto=format&fit=crop",
+      "image_alt": "assets/images/hero/slide-1.jpg",
       "is_active": true,
       "order": 1
     },
     {
       "id": "hero_slide_2",
       "headline": "Laserterapia e protocolos seguros para pacientes onco",
-      "subheadline": "Acompanhamento proativo antes, durante e apos terapias onco com orientacao clara, alivio de mucosites e suporte continuo.",
+      "subheadline": "Laser para aliviar aftas, queimaduras e desconforto durante o tratamento.",
       "cta_label": "Conhecer servicos",
       "cta_action": "#servicos",
       "cta_style": "secondary",
-      "image_url": "assets/images/hero/slide-2.jpg",
-      "image_alt": "Segunda imagem do carrossel",
+      "image_url": "https://images.unsplash.com/photo-1618498082410-b4aa22193b38?q=80&w=1600&auto=format&fit=crop",
+      "image_alt": "assets/images/hero/slide-2.jpg",
       "is_active": true,
       "order": 2
     }
@@ -660,6 +660,56 @@
       "order": 3
     }
   ],
+  "faq": [
+    {
+      "id": "faq_1",
+      "question": "Como a odontologia hospitalar ajuda na UTI?",
+      "answer": "O cirurgiao-dentista avalia diariamente a cavidade oral, remove focos infecciosos, aplica laser quando necessario e orienta a equipe sobre higiene ideal. Isso reduz pneumonias associadas a ventilacao e melhora o conforto do paciente.",
+      "category": "Hospitalar",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "faq_2",
+      "question": "Quais pacientes podem receber atendimento domiciliar?",
+      "answer": "Pacientes idosos, acamados, com mobilidade reduzida, em pos-operatorio, com deficiencias neurologicas ou necessidades especiais. Levamos consultorio portatil e adaptamos o protocolo a rotina da casa.",
+      "category": "Domiciliar",
+      "is_active": true,
+      "order": 2
+    },
+    {
+      "id": "faq_3",
+      "question": "Quando indicar laserterapia para pacientes onco?",
+      "answer": "Indicamos no pre, durante e pos quimio ou radioterapia para prevenir mucosite, candidiase, dor e xerostomia. O laser acelera cicatrizacao e ajuda na manutencao da alimentacao.",
+      "category": "Oncologia",
+      "is_active": true,
+      "order": 3
+    },
+    {
+      "id": "faq_4",
+      "question": "O atendimento interfere no plano medico?",
+      "answer": "Trabalhamos em integracao com a equipe medica. Enviamos relatorios, alinhamos condutas e usamos protocolos aprovados. Todo material segue normas de biosseguranca hospitalar.",
+      "category": "Hospitalar",
+      "is_active": true,
+      "order": 4
+    },
+    {
+      "id": "faq_5",
+      "question": "O que esta incluso no plano domiciliar?",
+      "answer": "Visitas programadas, profilaxias, ajustes proteticos, orientacoes de higiene, telemonitoramento e relatorio para medicos quando necessario. Materiais descartaveis e EPIs estao inclusos.",
+      "category": "Domiciliar",
+      "is_active": true,
+      "order": 5
+    },
+    {
+      "id": "faq_6",
+      "question": "Como preparar o paciente para radioterapia?",
+      "answer": "Recomendamos avaliacao odontologica previa para eliminar focos infecciosos, realizar profilaxia, orientar sobre higiene e iniciar laser preventivo. Seguimos acompanhando cada fase do tratamento.",
+      "category": "Oncologia",
+      "is_active": true,
+      "order": 6
+    }
+  ],
   "team": [
     {
       "id": "team_1",
@@ -736,56 +786,6 @@
       "is_highlighted": "false",
       "is_active": true,
       "order": 3
-    }
-  ],
-  "faq": [
-    {
-      "id": "faq_1",
-      "question": "Como a odontologia hospitalar ajuda na UTI?",
-      "answer": "O cirurgiao-dentista avalia diariamente a cavidade oral, remove focos infecciosos, aplica laser quando necessario e orienta a equipe sobre higiene ideal. Isso reduz pneumonias associadas a ventilacao e melhora o conforto do paciente.",
-      "category": "Hospitalar",
-      "is_active": true,
-      "order": 1
-    },
-    {
-      "id": "faq_2",
-      "question": "Quais pacientes podem receber atendimento domiciliar?",
-      "answer": "Pacientes idosos, acamados, com mobilidade reduzida, em pos-operatorio, com deficiencias neurologicas ou necessidades especiais. Levamos consultorio portatil e adaptamos o protocolo a rotina da casa.",
-      "category": "Domiciliar",
-      "is_active": true,
-      "order": 2
-    },
-    {
-      "id": "faq_3",
-      "question": "Quando indicar laserterapia para pacientes onco?",
-      "answer": "Indicamos no pre, durante e pos quimio ou radioterapia para prevenir mucosite, candidiase, dor e xerostomia. O laser acelera cicatrizacao e ajuda na manutencao da alimentacao.",
-      "category": "Oncologia",
-      "is_active": true,
-      "order": 3
-    },
-    {
-      "id": "faq_4",
-      "question": "O atendimento interfere no plano medico?",
-      "answer": "Trabalhamos em integracao com a equipe medica. Enviamos relatorios, alinhamos condutas e usamos protocolos aprovados. Todo material segue normas de biosseguranca hospitalar.",
-      "category": "Hospitalar",
-      "is_active": true,
-      "order": 4
-    },
-    {
-      "id": "faq_5",
-      "question": "O que esta incluso no plano domiciliar?",
-      "answer": "Visitas programadas, profilaxias, ajustes proteticos, orientacoes de higiene, telemonitoramento e relatorio para medicos quando necessario. Materiais descartaveis e EPIs estao inclusos.",
-      "category": "Domiciliar",
-      "is_active": true,
-      "order": 5
-    },
-    {
-      "id": "faq_6",
-      "question": "Como preparar o paciente para radioterapia?",
-      "answer": "Recomendamos avaliacao odontologica previa para eliminar focos infecciosos, realizar profilaxia, orientar sobre higiene e iniciar laser preventivo. Seguimos acompanhando cada fase do tratamento.",
-      "category": "Oncologia",
-      "is_active": true,
-      "order": 6
     }
   ],
   "blog_posts": [
@@ -881,7 +881,7 @@
   "blog": [],
   "footer": [],
   "_metadata": {
-    "syncedAt": "2025-10-19T20:31:53.157Z",
+    "syncedAt": "2025-10-19T20:59:49.774Z",
     "syncedBy": "telsnt@gmail.com",
     "projeto": "claudiane-site",
     "abasProcessadas": 13,
