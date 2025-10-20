@@ -1,0 +1,5 @@
+# Redirect www to non-www (quando domínio customizado configurado)
+https://www.example.com/* https://example.com/:splat 301!
+
+# SPA fallback
+/* /index.html 200
