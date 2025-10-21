@@ -21,7 +21,45 @@
     "facebook_url": "https://www.facebook.com/claudiane.s.rezende/",
     "instagram_url": "https://instagram.com/claudianerezende",
     "meta_title": "Dra. Claudiane Santana Rezende - Odontologia Hospitalar e Domiciliar",
-    "meta_description": "Odontologia hospitalar, domiciliar e onco com protocolos seguros, equipe humana e foco em conforto."
+    "meta_description": "Odontologia hospitalar, domiciliar e onco com protocolos seguros, equipe humana e foco em conforto.",
+    "instagram_gallery": [
+      {
+        "id": "ig_01",
+        "image_url": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?auto=format&fit=crop&w=800&q=80",
+        "caption": "Treinamento de equipe na UTI",
+        "link": "https://instagram.com/claudianerezende"
+      },
+      {
+        "id": "ig_02",
+        "image_url": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=800&q=80",
+        "caption": "Laserterapia em paciente onco",
+        "link": "https://instagram.com/claudianerezende"
+      },
+      {
+        "id": "ig_03",
+        "image_url": "https://images.unsplash.com/photo-1580281658629-6021c0f37c1d?auto=format&fit=crop&w=800&q=80",
+        "caption": "Checklist de biosseguranca hospitalar",
+        "link": "https://instagram.com/claudianerezende"
+      },
+      {
+        "id": "ig_04",
+        "image_url": "https://images.unsplash.com/photo-1588767765298-07bcb1c4cbab?auto=format&fit=crop&w=800&q=80",
+        "caption": "Atendimento domiciliar com consultorio portatil",
+        "link": "https://instagram.com/claudianerezende"
+      },
+      {
+        "id": "ig_05",
+        "image_url": "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?auto=format&fit=crop&w=800&q=80",
+        "caption": "Reuniao com familiares e cuidadores",
+        "link": "https://instagram.com/claudianerezende"
+      },
+      {
+        "id": "ig_06",
+        "image_url": "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80",
+        "caption": "Materiais educativos para pacientes",
+        "link": "https://instagram.com/claudianerezende"
+      }
+    ]
   },
   "sobre": [
     {
@@ -66,7 +104,7 @@
       "id": "about-main",
       "page": "sobre",
       "is_active": true,
-      "priority": 1,
+      "priority": 2,
       "component_type": "about",
       "icon_name": "UserRound"
     },
@@ -74,7 +112,7 @@
       "id": "services-grid",
       "page": "servicos",
       "is_active": true,
-      "priority": 1,
+      "priority": 3,
       "component_type": "services",
       "icon_name": "Briefcase"
     },
@@ -82,7 +120,7 @@
       "id": "differentials",
       "page": "diferencial",
       "is_active": true,
-      "priority": 1,
+      "priority": 4,
       "component_type": "features",
       "icon_name": "Sparkles"
     },
@@ -90,7 +128,7 @@
       "id": "portfolio-gallery",
       "page": "portfolio",
       "is_active": true,
-      "priority": 1,
+      "priority": 5,
       "component_type": "gallery",
       "icon_name": "Images"
     },
@@ -98,7 +136,7 @@
       "id": "blog-list",
       "page": "blog",
       "is_active": true,
-      "priority": 1,
+      "priority": 6,
       "component_type": "blog",
       "icon_name": "Newspaper"
     },
@@ -106,7 +144,7 @@
       "id": "testimonials",
       "page": "depoimentos",
       "is_active": true,
-      "priority": 1,
+      "priority": 7,
       "component_type": "testimonials",
       "icon_name": "MessageCircle"
     },
@@ -114,7 +152,7 @@
       "id": "faq-accordion",
       "page": "faq",
       "is_active": true,
-      "priority": 1,
+      "priority": 8,
       "component_type": "faq",
       "icon_name": "HelpCircle"
     },
@@ -122,7 +160,7 @@
       "id": "cta-banner",
       "page": "cta",
       "is_active": true,
-      "priority": 1,
+      "priority": 10,
       "component_type": "cta",
       "icon_name": "Sparkles"
     },
@@ -130,15 +168,15 @@
       "id": "contact-cta",
       "page": "contato",
       "is_active": true,
-      "priority": 1,
+      "priority": 11,
       "component_type": "contact",
       "icon_name": "Phone"
     },
     {
       "id": "about-preview",
       "page": "home",
-      "is_active": true,
-      "priority": 2,
+      "is_active": false,
+      "priority": 12,
       "component_type": "about",
       "icon_name": "UserRound"
     },
@@ -146,7 +184,7 @@
       "id": "pricing",
       "page": "servicos",
       "is_active": true,
-      "priority": 7,
+      "priority": 9,
       "component_type": "pricing",
       "icon_name": "Tags"
     }
@@ -487,7 +525,7 @@
       "anchor": "#contato",
       "type": "link",
       "order": 7,
-      "is_active": true,
+      "is_active": false,
       "icon_name": "Phone"
     }
   ],
@@ -500,7 +538,7 @@
       "cta_action": "#contato",
       "cta_style": "primary",
       "image_url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1600&auto=format&fit=crop",
-      "image_alt": "assets/images/hero/slide-1.jpg",
+      "image_alt": "Dentista cuidando de paciente em ambiente domiciliar",
       "is_active": true,
       "order": 1
     },
@@ -512,7 +550,7 @@
       "cta_action": "#servicos",
       "cta_style": "secondary",
       "image_url": "https://images.unsplash.com/photo-1618498082410-b4aa22193b38?q=80&w=1600&auto=format&fit=crop",
-      "image_alt": "assets/images/hero/slide-2.jpg",
+      "image_alt": "Aplicacao de laserterapia odontologica",
       "is_active": true,
       "order": 2
     }
@@ -598,11 +636,11 @@
       "category": "Oncologia",
       "client": "Complexo Hospitalar Santa Genoveva",
       "description": "Implementacao de rotina odontologica em UTI adulta com foco em prevencao de mucosite e infeccoes respiratorias. Treinamento da enfermagem, visitas diarias e laserterapia preventiva reduziram em 38 por cento os casos de mucosite grau III.",
-      "image_url": "assets/images/portfolio/item-1.jpg",
+      "image_url": "https://images.unsplash.com/photo-1580281658629-6021c0f37c1d?auto=format&fit=crop&w=1600&q=80",
       "gallery_json": [
-        "assets/images/portfolio/item-1.jpg",
-        "assets/images/portfolio/item-2.jpg",
-        "assets/images/portfolio/item-3.jpg"
+        "https://images.unsplash.com/photo-1580281658629-6021c0f37c1d?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1580281658928-77a6ac0ed8b0?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80"
       ],
       "tags_json": [
         "laserterapia",
@@ -619,11 +657,11 @@
       "category": "Domiciliar",
       "client": "Paciente acamado em home care",
       "description": "Plano domiciliar com consultorio portatil, readequacao de protese e orientacao de cuidadores. Reducao de lesoes traumaticas e melhora da degluticao em seis semanas de acompanhamento intensivo.",
-      "image_url": "assets/images/portfolio/item-2.jpg",
+      "image_url": "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?auto=format&fit=crop&w=1600&q=80",
       "gallery_json": [
-        "assets/images/portfolio/item-2.jpg",
-        "assets/images/portfolio/item-3.jpg",
-        "assets/images/portfolio/item-1.jpg"
+        "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1600&q=80"
       ],
       "tags_json": [
         "homecare",
@@ -640,11 +678,11 @@
       "category": "Oncologia",
       "client": "Clinica de Oncologia Regional",
       "description": "Seguimento multiprofissional durante radioterapia de cabeca e pescoco. Laserterapia, manejo de xerostomia e orientacao alimentar resultaram em manutencao de peso e nenhum episodio de suspensao do tratamento medico.",
-      "image_url": "assets/images/portfolio/item-3.jpg",
+      "image_url": "https://images.unsplash.com/photo-1582719478181-b513eaf1f1af?auto=format&fit=crop&w=1600&q=80",
       "gallery_json": [
-        "assets/images/portfolio/item-3.jpg",
-        "assets/images/portfolio/item-1.jpg",
-        "assets/images/portfolio/item-2.jpg"
+        "https://images.unsplash.com/photo-1582719478181-b513eaf1f1af?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1580281658914-7ab9d2f8840a?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1580281958379-894d3f879f7c?auto=format&fit=crop&w=1600&q=80"
       ],
       "tags_json": [
         "oncologia",
@@ -760,6 +798,15 @@
       "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
       "is_active": true,
       "order": 2
+    },
+    {
+      "id": "team_3",
+      "name": "Patricia Costa",
+      "role": "Higienista e educadora",
+      "bio": "Responsavel por treinamentos de equipes, visitas domiciliares de acompanhamento e telemonitoramento de orientacoes diabeticas e oncologicas.",
+      "photo_url": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80",
+      "is_active": true,
+      "order": 3
     }
   ],
   "pricing": [
@@ -904,7 +951,49 @@
   ],
   "home": [],
   "contato": [],
-  "diferencial": [],
+  "diferencial": [
+    {
+      "id": "diferenciais_intro",
+      "type": "intro",
+      "is_active": true,
+      "order": 0,
+      "badge": "Diferenciais",
+      "headline": "Seguranca clinica com toque humano",
+      "description": "Protocolos desenhados para realidades hospitalares e domiciliares, sempre com comunicacao clara e acolhimento."
+    },
+    {
+      "id": "diferencial_protocolo",
+      "is_active": true,
+      "order": 1,
+      "icon_name": "ShieldCheck",
+      "title": "Protocolos integrados",
+      "description": "Planos construidos com a equipe multiprofissional para reduzir riscos de infeccoes e interrupcoes de tratamento."
+    },
+    {
+      "id": "diferencial_laser",
+      "is_active": true,
+      "order": 2,
+      "icon_name": "Sparkles",
+      "title": "Laserterapia especializada",
+      "description": "Aplicacoes personalizadas para controle de dor, mucosite e cicatrizacao acelerada em pacientes onco e criticos."
+    },
+    {
+      "id": "diferencial_homecare",
+      "is_active": true,
+      "order": 3,
+      "icon_name": "Home",
+      "title": "Atendimento onde o paciente esta",
+      "description": "Consultorio portatil completo, EPIs e orientacoes claras para familia e cuidadores no ambiente domiciliar."
+    },
+    {
+      "id": "diferencial_educacao",
+      "is_active": true,
+      "order": 4,
+      "icon_name": "BookOpen",
+      "title": "Educacao continua",
+      "description": "Materiais, treinamentos e acompanhamento remoto para enfermagem e familiares manterem a rotina de higiene bucal."
+    }
+  ],
   "produtos": [],
   "depoimentos": [],
   "blog": [],
